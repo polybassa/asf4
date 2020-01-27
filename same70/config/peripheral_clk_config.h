@@ -44,7 +44,7 @@
  * \def CONF_PCK6_FREQUENCY
  * \brief Programmable Clock Controller 6 frequency
  */
-#define CONF_PCK6_FREQUENCY 12000000
+#define CONF_PCK6_FREQUENCY 1714285
 
 // <h> UART Clock Settings
 // <o> UART Clock source
@@ -64,7 +64,6 @@
 #ifndef CONF_UART0_FREQUENCY
 #define CONF_UART0_FREQUENCY 150000000
 #endif
-#define CONF_PCK6_FREQUENCY 1714285
 
 #ifndef CONF_SRC_USB_480M
 #define CONF_SRC_USB_480M 0
